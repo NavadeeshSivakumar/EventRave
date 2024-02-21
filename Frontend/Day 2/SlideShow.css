@@ -1,0 +1,33 @@
+.slideshow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.slideshow button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 15px;
+  margin: 0 10px;
+  color: #555;
+  transition: color 0.3s;
+}
+
+.slideshow button:hover {
+  color: #333;
+}
+
+.slideshow img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.slideshow img:hover {
+  transform: scale(1.05);
+}
